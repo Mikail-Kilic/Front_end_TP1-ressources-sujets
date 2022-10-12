@@ -1,0 +1,28 @@
+.navBarre{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h3Dest{
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.Entête{
+  display: flex;
+}
+
+.Entête table{
+  width: 100%;
+}
+
+img{
+  width: 200px;
+  height: 150px;
+}
