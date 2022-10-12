@@ -20,19 +20,38 @@
         <li><a href="index.html">Menu</a></li>
         <li><a href="perso.html">Espace perso</a></li>
         <li><a href="destinations.html">Destinations</a></li>
-        <li><a href="index.html">Visite virtuelle (audio)</a></li>
+        <li><a href="Voyage virtuel audio.html">Visite virtuelle (audio)</a></li>
         <li><a href="index.html">Visite virtuelle (vidéo)</a></li>
-        <li><a href="index.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </u>
     </div>
     <br>
     <h2>Contact</h2>
-    <p>nom: Kilic</p>
-    <p>prénom: Mikâil</p>
-    <p>mail: mikailkilic74@gmail.com</p>
-    <p>tel: 0750949610</p>
-    <p>message: </p>
-    <input type="text" name="message">
-    <button type="button">Envoyer</button>
+    <form class="contact" action="contact.html" method="post">
+      <div>
+        <label for="nom">Nom: </label>
+        <input type="text" name="last_name" id="nom">
+      </div>
+      <div>
+        <label for="prenom">Prénom: </label>
+        <input type="text" name="first_name" id="prenom">
+      </div>
+      <div>
+        <label for="mail">Mail: </label>
+        <input type="email" name="user_mail" id="mail">
+      </div>
+      <div>
+        <label for="tel">Tel: </label>
+        <input type="number" name="user_number" id="tel">
+      </div>
+      <div>
+        <label for="msg">Message: </label>
+        <textarea id="msg" name="user_message"></textarea
+      </div>
+      <div>
+        <br>
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
   </body>
 </html>
