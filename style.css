@@ -1,4 +1,4 @@
-/* .navBarre{
+.navBarre{
   display: flex;
 }
 
@@ -16,6 +16,7 @@ li{
 
 .Entête{
   display: flex;
+  background-color: black;
 }
 
 .Entête table{
@@ -25,8 +26,4 @@ li{
 img{
   width: 200px;
   height: 150px;
-} */
-
-.Entête{
-  background-color: black;
 }
