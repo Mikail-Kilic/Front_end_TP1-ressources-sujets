@@ -1,0 +1,198 @@
+.navBarre{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a{
+  text-decoration: none;
+}
+
+h2{
+  text-decoration: underline lightskyblue 4px;
+}
+
+header{
+  position: sticky;
+  top: 20px;
+  border-width: 4px;
+  border-style:solid;
+  border-color:black;
+  background-color: lightskyblue;
+}
+.navBarre a:hover{
+  color: white;
+}
+.sous_menu{
+  display: none;
+}
+.menu:hover .sous_menu{
+  display: block;
+  padding: 0 0px;
+}
+/* ------------------------------------------------------------------------- */
+/* Destination.html */
+.h3Dest{
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.Entête table{
+  width: 100%;
+  border-width: 4px;
+  border-style:solid;
+  border-color:black;
+}
+
+img{
+  width: 200px;
+  height: 150px;
+}
+
+/* tbody td div{
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+} */
+
+.h3Dest{
+  font-style: italic;
+  font-size: 20px;
+}
+
+tbody td{
+  text-align: center;
+  border-width:4px;
+  border-style:solid;
+  border-color:black;
+}
+
+.Entête th{
+  background-color: mediumturquoise;
+}
+
+tbody tr:nth-child(2n+1){
+  background-color: lightskyblue;
+}
+
+tbody tr:hover:nth-child(1n+1){
+  background-color: mediumturquoise;
+}
+
+tbody tr:hover:nth-child(2n+1){
+  background-color: lightgray;
+}
+/* ------------------------------------------------------------------------- */
+/* index.html */
+.desc{
+  text-decoration: underline lightskyblue 4px;
+}
+.Description {
+  border-width: 4px;
+  border-style:solid;
+  border-color:black;
+}
+.Description p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Description:hover {
+  background-color: lightgray;
+}
+
+h3{
+  text-decoration: underline lightskyblue 4px;
+}
+.Infos {
+  border-width: 4px;
+  border-style:solid;
+  border-color:black;
+}
+.Infos p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Infos:hover{
+  background-color: lightgray;
+}
+/* ------------------------------------------------------------------------- */
+/* perso.html */
+
+.perso{
+  text-decoration: underline black 4px;
+}
+.espace_perso{
+  border-width: 4px;
+  border-style:solid;
+  border-color:black;
+}
+.espace_perso:hover{
+  background-color: lightskyblue;
+}
+.espace_perso a:hover{
+  color: white;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Voyage virtuel audio.html */
+
+.Audio div{
+  padding: 5px;
+  border-width: 4px;
+  border-bottom: 2px;
+  border-style:solid;
+  border-color:black;
+}
+
+.Audio div h3{
+  font-size: 20px;
+}
+
+.Audio div p{
+  margin-left: 30px;
+}
+/* ------------------------------------------------------------------------- */
+/* Voyage virtuel vidéo.html */
+
+.Video{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.Video div video{
+  width: 300px;
+  height: auto;
+}
+
+.Video div h4{
+  text-align: center;
+}
+
+.Video div{
+  padding: 5px;
+  border-width: 4px;
+  border-right: 2px;
+  border-style:solid;
+  border-color:black;
+}
+/* ------------------------------------------------------------------------- */
+/* contact.html */
+
+.contact{
+  padding: 15px;
+  border-width: 4px;
+  border-style:solid;
+  border-color:black;
+}
+
+.active{
+  font-weight: bold;
+  color: white;
+}

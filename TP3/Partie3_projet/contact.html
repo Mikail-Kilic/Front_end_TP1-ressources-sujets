@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Agence voyages Grenoble</h1>
+
+      <div class="nav">
+        <ul class="navBarre">
+          <!-- <li><a href="">Menu</a></li> -->
+          <li><a class="index" href="index.html">Menu</a></li>
+          <li class="menu"><a href="perso.html">Espace perso</a>
+            <ul class="sous_menu">
+              <li><a href="perso.html">Connexion</a></li>
+              <li><a href="perso.html">Mes informations</a></li>
+              <li><a href="perso.html">Messagerie</a></li>
+              <li><a href="perso.html">Historique</a></li>
+            </ul>
+          </li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="Voyage virtuel audio.html">Visite virtuelle (audio)</a></li>
+          <li><a href="Voyage virtuel vidéo.html">Visite virtuelle (vidéo)</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <br>
+    <h2>Contact</h2>
+    <form class="contact" action="contact.html" method="post">
+      <div>
+        <label for="nom">Nom: </label>
+        <input type="text" name="last_name" id="nom">
+      </div>
+      <div>
+        <label for="prenom">Prénom: </label>
+        <input type="text" name="first_name" id="prenom">
+      </div>
+      <div>
+        <label for="mail">Mail: </label>
+        <input type="email" name="user_mail" id="mail">
+      </div>
+      <div>
+        <label for="tel">Tel: </label>
+        <input type="number" name="user_number" id="tel">
+      </div>
+      <div>
+        <label for="msg">Message: </label>
+        <textarea id="msg" name="user_message"></textarea
+      </div>
+      <div>
+        <br>
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
+  </body>
+</html>
